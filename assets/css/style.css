@@ -1,3 +1,21 @@
-col{
-    height: 200px;
+body{
+    background-color: rgb(230, 230, 230);
+    height: 100%;
 }
+img{
+    
+    height: 200px
+}
+.title{
+    text-align: center;
+}
+.navbar{
+    background-color: #457B9D;
+    
+}
+#Btnaccueil{
+    background-color: #457B9D;
+    height: 60px;
+}
+
+

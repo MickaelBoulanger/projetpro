@@ -6,53 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Nom du site</title>
 </head>
 
 <body>
-<header>
-    <!-- debut navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <header>
+        <!-- debut navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark  ">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-1" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse "id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active " aria-current="page" href="#">A l'affiche</a>
+                        <a class="nav-link active " href="#">Sorties de la semaine</a>
+                        <a class="nav-link active " href="#">Contact</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!-- fin navbar -->
-</header>
-<main>
-    <div class="container">
+        </nav>
+        <!-- fin navbar -->
+    </header>
+    <main>
+        <h5 class=" mt-2 ms-4">Sorties de la semaine</h5>
+        <!-- <div class="container">
             <div class="raw">
-                <div class="col">
-
+                <div id="film" class="col d-flex justify-content-evenly">
+                    <img src="/assets/img/img essai/interstellar.jpg" alt="interstellar" class=" bg-info mt-2 p-2"></img>
+                <img src="/assets/img/img essai/interstellar.jpg" alt="interstellar" class=" bg-info mt-2 p-2"></img>
+                </div>
+            </div>
+        </div> -->
+        
+        
+        <div class="container">
+            <div class="raw d-flex justify-content-around justify-content-lg-start">
+                <div id="film" class="col-5 col-lg-2">
+                    <div class="card">
+                        <img src="/assets/img/img essai/moneyball.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="title">
+                        <a href="#" class="btn">Moneyball</a>
+                    </div>
+                </div>
+                <div id="film" class="col-5 col-lg-2">
+                    <div class="card">
+                        <img src="/assets/img/img essai/parasite.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="title">
+                        <a href="#" class="btn">Parasite</a>
+                    </div>
                 </div>
             </div>
         </div>
-</main>
+        </div>
+        <h5 class=" mt-2 ms-4">A l'affiche</h5>     
+        <div class="container">
+            <div class="raw d-flex justify-content-around justify-content-lg-start">
+                <div id="film" class="col-5 col-lg-2">
+                    <div class="card">
+                        <img src="/assets/img/img essai/moneyball.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="title">
+                        <a href="#" class="btn">Moneyball</a>
+                    </div>
+                </div>
+                <div id="film" class="col-5 col-lg-2">
+                    <div class="card">
+                        <img src="/assets/img/img essai/parasite.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="title">
+                        <a href="#" class="btn">Parasite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer ">
+            <div id="Btnaccueil"class="raw d-flex justify-content-around ">
+                
+                <div class="col-4  text-center">
+                    <button type="button" class="btn-success ">Inscription</button>
+                </div>
+                
+                <div class="col-4  text-center">
+                    <button type="button" class="btn-primary  ">Connexion</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-
-
-
-
-<footer>
-
-
-</footer>
-
-<script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
