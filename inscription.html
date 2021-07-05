@@ -8,13 +8,14 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Inscription</title>
 </head>
 
 <body>
     <header>
         <!-- debut navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark  ">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid ">
                 <a class="navbar-brand mb-1" href="#">Films by Mike</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,7 +39,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 offset-lg" id="">
                 <h2>Bienvenue</h2>
-                <form>
+                <form action="<?=htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post">
                     <!-- Pseudo -->
                     <div class="form-group mt-4">
                         <label for="Pseudo ">Pseudo :</label>
@@ -69,8 +70,8 @@
 
                     <!-- button de connexion est annuler -->
                     <div id="connectBtn" class="mt-4">
-                        <button type="submit" class="btn-light rounded-pill border-0 me-4">Annuler</button>
-                        <button type="reset" class="btn-light rounded-pill border-0">Connexion</button>
+                        <button type="reset" class="btn-light rounded-pill border-0 me-4">Annuler</button>
+                        <button type="submit" class="btn-light rounded-pill border-0">Connexion</button>
                     </div>
                     <div id="connectlink" class="mt-4">
                         <p>Déjà inscrit ? Connecter vous <a target="_blank" href="connexion.html">ici</a>.</p>
